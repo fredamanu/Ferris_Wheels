@@ -1,8 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
 .wheel {
   border: 2px solid black;
   border-radius: 50%;
-  margin-left: 50px;
   position: absolute;
+  top: 10%;
+  left: 20%;
   width: 55vw;
   /* Using vw as the unit for the height and not vh will make the circle rounded and not oval as will be if vh is used */
   height: 55vw;
